@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Titillium+Web&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F9F7F7;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+.none {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.grid {
+  width: 80%;
+  max-width: 1400px;
+
+  margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+}
+

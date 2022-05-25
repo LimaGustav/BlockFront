@@ -1,0 +1,28 @@
+.header_nav {
+    display: flex;
+    /* background-color: green; */
+
+    height: 80px;
+
+    justify-content: space-between;
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+
+    width: 80%;
+    max-width: 600px;
+
+    text-transform: uppercase;
+}
+
+.leave {
+    width: 24px;
+}
+
+a {
+    color:black;
+}

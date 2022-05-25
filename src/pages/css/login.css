@@ -1,0 +1,96 @@
+.lgn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.lgn_container {
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+
+    height: 470px;
+    width: 480px;
+}
+
+.lgn_logo {
+    width: 121px;
+    height: 127px;
+}
+
+.lgn_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lgn_container_inputs {
+    text-align: center;
+    height: 110px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lgn_input {
+    background: #FFFFFF;
+    border: 1px solid #939597;
+    border-radius: 4px;
+
+
+    width: 400px;
+    height: 45px;
+
+    padding-left: 10px;
+}
+
+.lgn_erro {
+    color: #E13E3E;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.lgn_btn {
+    width: 400px;
+    height: 45px;
+
+    background: #39557C;
+    border-radius: 4px;
+
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    margin-top: 25px;
+}
+
+.lgn_loading {
+    background: #6a90c5;
+    cursor: not-allowed;
+}
+
+
+.lgn_image_person {
+    align-self: flex-end;
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+}
+
+@media (max-width: 930px) {
+    .lgn_image_person {
+        display: none;
+    }
+}

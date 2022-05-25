@@ -1,0 +1,29 @@
+{
+    "scripts-1": {
+        "verificar-se-possui-s3": "sudo aws s3 ls | wc -l",
+        "verificar-se-possui-vercionamento-s3":"",
+        "verificar-destinatarios-sns":"",
+        "verificar-usuarios-iam":"aws iam list-users",
+        "verificar-politicas-iam":"",
+        "verificar-valores-faturas":"",
+        "verificar-faturas-pendentes":""
+    },
+    "scripts-2": {
+        "snapshots-diarios":"aws ec2 describe-snapshots",
+        "verificar-volume-sem-uso":"sudo aws ec2 describe-volumes",
+        "verificar-instancias-reservadas":"aws ec2 describe-reserved-instances",
+        "elastic-ip-ocioso":"",
+        "verificar-security-group-ec2":"",
+        "verificar-security-group-rds":"",
+        "verificar-autoscalling":false
+    },
+    "scripts-3": {
+        "verificar-upgrades-disponiveis":"apt list --upgradable",
+        "verificar-reinicializacao-pendente":"",
+        "verificar-espaco-em-disco":"df -h",
+        "verificar-uso-de-memoria":"free -h",
+        "validar-antivirus":"",
+        "validar-fuso-horario":"date",
+        "validar-crons":"cat /etc/crontab"
+    }
+}

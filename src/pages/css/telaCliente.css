@@ -1,0 +1,38 @@
+.p_container {
+    display: flex;
+    flex-direction: column;
+}
+.p_container_title {
+    display: flex;
+    margin-top: 100px;
+}
+
+.p_title {
+    margin-right: 25px;
+}
+
+.p_container_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.p_company_description {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.p_container_problem {
+    width: fit-content;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.p_input {
+    width: 400px;
+    height: 45px;
+    margin-top: 5px;}
+
+.p_btn {
+    align-self: center;
+    margin-top: 200px;
+}
