@@ -1,0 +1,13 @@
+.container_modal {
+    position: fixed;
+    z-index: 99;
+    top: 100px;
+    left: 450px;
+
+    background-color: white;
+
+    width: 500px;
+    height: 300px;
+
+    display: flex;
+}

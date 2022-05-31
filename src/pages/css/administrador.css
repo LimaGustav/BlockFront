@@ -1,3 +1,7 @@
+.container_adm_page {
+    min-height: 100vh;
+}
+
 .adm_table_head {
     width: 60%;
 }
@@ -35,3 +39,4 @@
 .pointer {
     cursor: pointer;
 }
+
